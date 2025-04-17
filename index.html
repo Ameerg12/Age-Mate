@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgeMate - عمر کیلکولیٹر</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">AgeMate</div>
+    <nav>
+      <ul>
+        <li><a href="#home">ہوم</a></li>
+        <li><a href="#about">ہمارے بارے میں</a></li>
+        <li><a href="#services">سروسز</a></li>
+        <li><a href="#gallery">گیلری</a></li>
+        <li><a href="#blog">بلاگ</a></li>
+        <li><a href="#contact">رابطہ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>اپنی عمر کا حساب لگائیں</h1>
+    <div class="calculator">
+      <input type="date" id="birthdate" />
+      <button onclick="calculateAge()">حساب کریں</button>
+      <p id="result"></p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>ہمارے بارے میں</h2>
+    <p>AgeMate ایک سادہ اور مؤثر آن لائن عمر کیلکولیٹر ہے جو آپ کی عمر کے حساب کو آسان بناتا ہے۔</p>
+  </section>
+
+  <section id="services">
+    <h2>ہماری خدمات</h2>
+    <ul>
+      <li>عمر کیلکولیٹر</li>
+      <li>وقت کا حساب</li>
+      <li>تاریخی تاریخیں معلوم کرنا</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>گیلری</h2>
+    <div class="gallery">
+      <img src="img1.jpg" alt="تصویر 1" />
+      <img src="img2.jpg" alt="تصویر 2" />
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>بلاگ</h2>
+    <article>
+      <h3>عمر کا حساب کیوں ضروری ہے؟</h3>
+      <p>یہ جاننا کہ آپ کی صحیح عمر کیا ہے، مختلف کاموں میں مددگار ثابت ہو سکتا ہے جیسے صحت، تعلیم اور نوکریوں کے معاملات میں۔</p>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2>رابطہ کریں</h2>
+    <form>
+      <input type="text" placeholder="نام" required />
+      <input type="email" placeholder="ای میل" required />
+      <textarea placeholder="پیغام"></textarea>
+      <button type="submit">بھیجیں</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 AgeMate. جملہ حقوق محفوظ ہیں۔</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
